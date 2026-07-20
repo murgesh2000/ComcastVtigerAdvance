@@ -1,0 +1,9 @@
+com\comcast\crm\contacttest\ContactTest.class
+com\comcast\crm\contacttest\CreateContactWithLastNameTest.class
+com\comcast\crm\contacttest\CreateContactWithSupportDateTest.class
+com\comcast\crm\contacttest\CreateContactWithOrganizationTest.class
+com\comcast\crm\orgtest\DeleteOrgTest.class
+com\comcast\crm\orgtest\CreateOrgTest.class
+com\comcast\crm\orgtest\organizationE2ETest.class
+com\comcast\crm\practiseExamples\dataProviderExample.class
+com\comcast\crm\orgtest\CreateOrganizationWithIndustryTest.class
