@@ -3,14 +3,8 @@
 <suite name="Suite">
 	<test name="Test">
 		<classes>
-			<class name="com.comcast.crm.contacttest.CreateContactWithLastName" />
-			<class name="com.comcast.crm.orgtest.DeleteOrgTest" />
-			<class
-				name="com.comcast.crm.contacttest.CreateContactWithOrganization" />
-			<class name="com.comcast.crm.orgtest.CreateOrganizationWithIndustry" />
-			<class
-				name="com.comcast.crm.contacttest.CreateContactWithSupportDate" />
-			<class name="com.comcast.crm.orgtest.CreateOrgTest" />
+			<class name="com.comcast.crm.contacttest.ContactTest" />
+			<class name="com.comcast.crm.orgtest.organizationE2ETest" />
 		</classes>
 	</test>
 </suite>

@@ -6,17 +6,20 @@
 		<classes>
 			<class name="com.comcast.crm.orgtest.CreateOrgTest" />
 			<class name="com.comcast.crm.orgtest.DeleteOrgTest" />
-			<class name="com.comcast.crm.orgtest.CreateOrganizationWithIndustry" />
+			<class
+				name="com.comcast.crm.orgtest.CreateOrganizationWithIndustryTest" />
 		</classes>
 	</test>
 
 	<test name="Test-2">
 		<parameter name="BROWSER" value="chrome"></parameter>
 		<classes>
-			<class name="com.comcast.crm.contacttest.CreateContactWithLastName" />
 			<class
-				name="com.comcast.crm.contacttest.CreateContactWithSupportDate" />
-			<class name="com.comcast.crm.orgtest.CreateOrgTest" />
+				name="com.comcast.crm.contacttest.CreateContactWithLastNameTest" />
+			<class
+				name="com.comcast.crm.contacttest.CreateContactWithSupportDateTest" />
+			<class
+				name="com.comcast.crm.contacttest.CreateContactWithOrganizationTest" />
 		</classes>
 	</test>
 
