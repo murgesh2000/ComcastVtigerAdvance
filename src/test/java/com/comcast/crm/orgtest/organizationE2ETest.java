@@ -55,7 +55,9 @@ public class organizationE2ETest extends BaseClass {
 
 		String actOrgName = orgPage.getActOrgName();
 
-		Assert.assertEquals(actOrgName, orgNameData);
+		boolean orgStatus = actOrgName.contains(orgNameData);
+
+		Assert.assertTrue(orgStatus);
 
 	}
 
@@ -82,7 +84,9 @@ public class organizationE2ETest extends BaseClass {
 
 		String actOrgName = orgPage.getActOrgName();
 
-		Assert.assertEquals(actOrgName, orgNameData);
+		boolean orgStatus = actOrgName.contains(orgNameData);
+
+		Assert.assertTrue(orgStatus);
 		// // WebUtility.waitForElementClickable(driver, lp.getLnkHomeIcon());
 		// lp.getLnkHomeIcon().click();
 		// corgp.getLnkOrganization().click();

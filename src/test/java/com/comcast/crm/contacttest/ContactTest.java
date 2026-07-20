@@ -1,5 +1,6 @@
 package com.comcast.crm.contacttest;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.comcast.crm.basetest.BaseClass;
@@ -92,13 +93,11 @@ public class ContactTest extends BaseClass {
 
 		String actOrgName = orgPage.getActOrgName();
 
-		if (actOrgName.contains(orgNameData)) {
-			System.out.println(orgNameData + " organization is created==>PASS");
-		} else {
-			System.out.println(orgNameData + " organization is not created==>FAIL");
-		}
+		boolean orgStatus = actOrgName.contains(orgNameData);
 
-		Thread.sleep(2000);
+		Assert.assertTrue(orgStatus);
+
+		Thread.sleep(500);
 
 		contactp.getLnkContact().click();
 

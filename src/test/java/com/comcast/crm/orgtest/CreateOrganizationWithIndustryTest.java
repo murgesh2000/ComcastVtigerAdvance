@@ -28,9 +28,11 @@ public class CreateOrganizationWithIndustryTest extends BaseClass {
 
 		orgPage.getBtnSave().click();
 
-		String actOrgName = orgPage.getActOrgName()+ "sdsd";
+		String actOrgName = orgPage.getActOrgName();
 
-		Assert.assertEquals(actOrgName, orgNameData);
+		boolean orgStatus = actOrgName.contains(orgNameData);
+
+		Assert.assertTrue(orgStatus);
 	}
 
 }

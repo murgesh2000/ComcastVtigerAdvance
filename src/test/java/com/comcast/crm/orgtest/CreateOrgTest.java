@@ -27,7 +27,7 @@ public class CreateOrgTest extends BaseClass {
 
 		boolean orgStatus = actOrgName.contains(orgNameData);
 
-		Assert.assertFalse(orgStatus);
+		Assert.assertTrue(orgStatus);
 
 	}
 

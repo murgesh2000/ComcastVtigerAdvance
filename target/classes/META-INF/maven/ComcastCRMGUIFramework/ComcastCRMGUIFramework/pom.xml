@@ -31,7 +31,7 @@
 		</profile>
 
 		<profile>
-			<id>RegressionTest</id>
+			<id>Regression_Test</id>
 			<build>
 				<plugins>
 					<plugin>
