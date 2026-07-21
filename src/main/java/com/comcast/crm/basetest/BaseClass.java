@@ -2,6 +2,7 @@ package com.comcast.crm.basetest;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
@@ -13,8 +14,6 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.comcast.crm.generic.databaseutility.DataBaseUtility;
 import com.comcast.crm.generic.fileutility.ExcellUtility;
 import com.comcast.crm.generic.fileutility.FileUtility;
@@ -35,7 +34,7 @@ public class BaseClass {
 	public DataBaseUtility dbUtil = new DataBaseUtility();
 	public static WebDriver sDriver;
 
-	@BeforeSuite(groups = { "SmokeTest", "RegressionTest" })
+	@BeforeSuite(alwaysRun = true)
 	public void configBeforeSuite() {
 		// dbUtil.getDbConnection();
 	}
@@ -44,7 +43,9 @@ public class BaseClass {
 	@BeforeClass(alwaysRun = true)
 	public void configBeforeClass(@Optional("chrome") String BROWSER) throws Exception {
 		if (BROWSER.equalsIgnoreCase("chrome")) {
-			driver = new ChromeDriver();
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--headless=new");
+			driver = new ChromeDriver(options);
 		} else if (BROWSER.equalsIgnoreCase("edge")) {
 			driver = new EdgeDriver();
 		} else if (BROWSER.equalsIgnoreCase("firefox")) {
@@ -55,7 +56,7 @@ public class BaseClass {
 
 	}
 
-	@BeforeMethod(groups = { "SmokeTest", "RegressionTest" })
+	@BeforeMethod(alwaysRun = true)
 	public void configBeforeMethod() throws Exception {
 		LoginPage lp = new LoginPage(UtilityClassObject.getDriver());
 
@@ -66,18 +67,18 @@ public class BaseClass {
 		lp.loginIntoPage(URL, UserName, PassWord);
 	}
 
-	@AfterMethod(groups = { "SmokeTest", "RegressionTest" })
+	@AfterMethod(alwaysRun = true)
 	public void configAfterMethod() {
 		HomePage hp = new HomePage(UtilityClassObject.getDriver());
 		hp.logOut(UtilityClassObject.getDriver());
 	}
 
-	@AfterClass(groups = { "SmokeTest", "RegressionTest" })
+	@AfterClass(alwaysRun = true)
 	public void configAfterClass() {
 		UtilityClassObject.getDriver().quit();
 	}
 
-	@AfterSuite(groups = { "SmokeTest", "RegressionTest" })
+	@AfterSuite(alwaysRun = true)
 	public void configAfterSuite() {
 		// dbUtil.closeConnection();
 	}
