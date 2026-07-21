@@ -1,17 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-17T13:32:05 IST" name="Suite" finished-at="2026-07-17T13:32:18 IST" duration-ms="12559">
+  <suite started-at="2026-07-20T18:15:51 IST" name="Suite" finished-at="2026-07-20T18:17:32 IST" duration-ms="100784">
     <groups>
     </groups>
-    <test started-at="2026-07-17T13:32:05 IST" name="Test" finished-at="2026-07-17T13:32:18 IST" duration-ms="12559">
+    <test started-at="2026-07-20T18:15:51 IST" name="Test-1" finished-at="2026-07-20T18:16:41 IST" duration-ms="50587">
+      <class name="com.comcast.crm.orgtest.DeleteOrgTest">
+        <test-method is-config="true" signature="configBeforeClass(java.lang.String)[pri:0, instance:com.comcast.crm.orgtest.DeleteOrgTest@35cabb2a]" started-at="2026-07-20T18:16:13 IST" name="configBeforeClass" finished-at="2026-07-20T18:16:14 IST" duration-ms="1414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:com.comcast.crm.orgtest.DeleteOrgTest@35cabb2a]" started-at="2026-07-20T18:16:14 IST" name="configBeforeMethod" finished-at="2026-07-20T18:16:16 IST" duration-ms="1110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="DeleteOrganization()[pri:0, instance:com.comcast.crm.orgtest.DeleteOrgTest@35cabb2a]" started-at="2026-07-20T18:16:16 IST" name="DeleteOrganization" finished-at="2026-07-20T18:16:28 IST" duration-ms="12133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteOrganization -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:com.comcast.crm.orgtest.DeleteOrgTest@35cabb2a]" started-at="2026-07-20T18:16:28 IST" name="configAfterMethod" finished-at="2026-07-20T18:16:30 IST" duration-ms="2343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configAfterClass()[pri:0, instance:com.comcast.crm.orgtest.DeleteOrgTest@35cabb2a]" started-at="2026-07-20T18:16:30 IST" name="configAfterClass" finished-at="2026-07-20T18:16:30 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterClass -->
+      </class> <!-- com.comcast.crm.orgtest.DeleteOrgTest -->
+      <class name="com.comcast.crm.orgtest.CreateOrganizationWithIndustryTest">
+        <test-method is-config="true" signature="configBeforeClass(java.lang.String)[pri:0, instance:com.comcast.crm.orgtest.CreateOrganizationWithIndustryTest@7e07db1f]" started-at="2026-07-20T18:16:30 IST" name="configBeforeClass" finished-at="2026-07-20T18:16:31 IST" duration-ms="829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganizationWithIndustryTest@7e07db1f]" started-at="2026-07-20T18:16:31 IST" name="configBeforeMethod" finished-at="2026-07-20T18:16:34 IST" duration-ms="2671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="OrganizationCreationWithIndustryTest()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganizationWithIndustryTest@7e07db1f]" started-at="2026-07-20T18:16:34 IST" name="OrganizationCreationWithIndustryTest" finished-at="2026-07-20T18:16:40 IST" duration-ms="6392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrganizationCreationWithIndustryTest -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganizationWithIndustryTest@7e07db1f]" started-at="2026-07-20T18:16:40 IST" name="configAfterMethod" finished-at="2026-07-20T18:16:41 IST" duration-ms="1001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configAfterClass()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganizationWithIndustryTest@7e07db1f]" started-at="2026-07-20T18:16:41 IST" name="configAfterClass" finished-at="2026-07-20T18:16:41 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterClass -->
+      </class> <!-- com.comcast.crm.orgtest.CreateOrganizationWithIndustryTest -->
       <class name="com.comcast.crm.orgtest.CreateOrgTest">
-        <test-method is-config="true" signature="configBeforeSuite()[pri:0, instance:com.comcast.crm.orgtest.CreateOrgTest@595b007d]" started-at="2026-07-17T13:32:05 IST" name="configBeforeSuite" finished-at="2026-07-17T13:32:05 IST" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="configBeforeClass(java.lang.String)[pri:0, instance:com.comcast.crm.orgtest.CreateOrgTest@399f45b1]" started-at="2026-07-20T18:15:51 IST" name="configBeforeClass" finished-at="2026-07-20T18:15:55 IST" duration-ms="3899" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:com.comcast.crm.orgtest.CreateOrgTest@399f45b1]" started-at="2026-07-20T18:15:55 IST" name="configBeforeMethod" finished-at="2026-07-20T18:16:00 IST" duration-ms="5106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="OrganizationCreationTest()[pri:0, instance:com.comcast.crm.orgtest.CreateOrgTest@399f45b1]" started-at="2026-07-20T18:16:00 IST" name="OrganizationCreationTest" finished-at="2026-07-20T18:16:11 IST" duration-ms="11124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrganizationCreationTest -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:com.comcast.crm.orgtest.CreateOrgTest@399f45b1]" started-at="2026-07-20T18:16:11 IST" name="configAfterMethod" finished-at="2026-07-20T18:16:13 IST" duration-ms="1684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configAfterClass()[pri:0, instance:com.comcast.crm.orgtest.CreateOrgTest@399f45b1]" started-at="2026-07-20T18:16:13 IST" name="configAfterClass" finished-at="2026-07-20T18:16:13 IST" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterClass -->
+      </class> <!-- com.comcast.crm.orgtest.CreateOrgTest -->
+    </test> <!-- Test-1 -->
+    <test started-at="2026-07-20T18:16:41 IST" name="Test-2" finished-at="2026-07-20T18:17:32 IST" duration-ms="50145">
+      <class name="com.comcast.crm.contacttest.CreateContactWithLastNameTest">
+        <test-method is-config="true" signature="configBeforeSuite()[pri:0, instance:com.comcast.crm.contacttest.CreateContactWithLastNameTest@a1153bc]" started-at="2026-07-20T18:15:51 IST" name="configBeforeSuite" finished-at="2026-07-20T18:15:51 IST" duration-ms="67" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeSuite -->
-        <test-method is-config="true" signature="configBeforeClass(java.lang.String)[pri:0, instance:com.comcast.crm.orgtest.CreateOrgTest@595b007d]" started-at="2026-07-17T13:32:05 IST" name="configBeforeClass" finished-at="2026-07-17T13:32:07 IST" duration-ms="1633" status="PASS">
+        <test-method is-config="true" signature="configBeforeClass(java.lang.String)[pri:0, instance:com.comcast.crm.contacttest.CreateContactWithLastNameTest@a1153bc]" started-at="2026-07-20T18:16:41 IST" name="configBeforeClass" finished-at="2026-07-20T18:16:45 IST" duration-ms="4018" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,67 +111,85 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeClass -->
-        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:com.comcast.crm.orgtest.CreateOrgTest@595b007d]" started-at="2026-07-17T13:32:07 IST" name="configBeforeMethod" finished-at="2026-07-17T13:32:08 IST" duration-ms="1000" status="PASS">
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:com.comcast.crm.contacttest.CreateContactWithLastNameTest@a1153bc]" started-at="2026-07-20T18:16:45 IST" name="configBeforeMethod" finished-at="2026-07-20T18:16:48 IST" duration-ms="2655" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeMethod -->
-        <test-method signature="OrganizationCreationTest()[pri:0, instance:com.comcast.crm.orgtest.CreateOrgTest@595b007d]" started-at="2026-07-17T13:32:08 IST" name="OrganizationCreationTest" finished-at="2026-07-17T13:32:16 IST" duration-ms="8340" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [false] but found [true]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertFalse(Assert.java:79)
-at org.testng.Assert.assertFalse(Assert.java:89)
-at com.comcast.crm.orgtest.CreateOrgTest.OrganizationCreationTest(CreateOrgTest.java:30)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="ContactCreationWithLastNameTest()[pri:0, instance:com.comcast.crm.contacttest.CreateContactWithLastNameTest@a1153bc]" started-at="2026-07-20T18:16:48 IST" name="ContactCreationWithLastNameTest" finished-at="2026-07-20T18:16:55 IST" duration-ms="6462" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OrganizationCreationTest -->
-        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:com.comcast.crm.orgtest.CreateOrgTest@595b007d]" started-at="2026-07-17T13:32:16 IST" name="configAfterMethod" finished-at="2026-07-17T13:32:17 IST" duration-ms="914" status="PASS">
+        </test-method> <!-- ContactCreationWithLastNameTest -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:com.comcast.crm.contacttest.CreateContactWithLastNameTest@a1153bc]" started-at="2026-07-20T18:16:55 IST" name="configAfterMethod" finished-at="2026-07-20T18:16:56 IST" duration-ms="1058" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAfterMethod -->
-        <test-method is-config="true" signature="configAfterClass()[pri:0, instance:com.comcast.crm.orgtest.CreateOrgTest@595b007d]" started-at="2026-07-17T13:32:17 IST" name="configAfterClass" finished-at="2026-07-17T13:32:18 IST" duration-ms="217" status="PASS">
+        <test-method is-config="true" signature="configAfterClass()[pri:0, instance:com.comcast.crm.contacttest.CreateContactWithLastNameTest@a1153bc]" started-at="2026-07-20T18:16:56 IST" name="configAfterClass" finished-at="2026-07-20T18:16:56 IST" duration-ms="261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAfterClass -->
-        <test-method is-config="true" signature="configAfterSuite()[pri:0, instance:com.comcast.crm.orgtest.CreateOrgTest@595b007d]" started-at="2026-07-17T13:32:18 IST" name="configAfterSuite" finished-at="2026-07-17T13:32:18 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="configAfterSuite()[pri:0, instance:com.comcast.crm.contacttest.CreateContactWithLastNameTest@a1153bc]" started-at="2026-07-20T18:17:32 IST" name="configAfterSuite" finished-at="2026-07-20T18:17:32 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAfterSuite -->
-      </class> <!-- com.comcast.crm.orgtest.CreateOrgTest -->
-    </test> <!-- Test -->
+      </class> <!-- com.comcast.crm.contacttest.CreateContactWithLastNameTest -->
+      <class name="com.comcast.crm.contacttest.CreateContactWithOrganizationTest">
+        <test-method is-config="true" signature="configBeforeClass(java.lang.String)[pri:0, instance:com.comcast.crm.contacttest.CreateContactWithOrganizationTest@47eaca72]" started-at="2026-07-20T18:17:09 IST" name="configBeforeClass" finished-at="2026-07-20T18:17:11 IST" duration-ms="1906" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:com.comcast.crm.contacttest.CreateContactWithOrganizationTest@47eaca72]" started-at="2026-07-20T18:17:11 IST" name="configBeforeMethod" finished-at="2026-07-20T18:17:12 IST" duration-ms="1068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="ContactCreationWithOrgTest()[pri:0, instance:com.comcast.crm.contacttest.CreateContactWithOrganizationTest@47eaca72]" started-at="2026-07-20T18:17:12 IST" name="ContactCreationWithOrgTest" finished-at="2026-07-20T18:17:30 IST" duration-ms="18596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactCreationWithOrgTest -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:com.comcast.crm.contacttest.CreateContactWithOrganizationTest@47eaca72]" started-at="2026-07-20T18:17:30 IST" name="configAfterMethod" finished-at="2026-07-20T18:17:31 IST" duration-ms="1055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configAfterClass()[pri:0, instance:com.comcast.crm.contacttest.CreateContactWithOrganizationTest@47eaca72]" started-at="2026-07-20T18:17:31 IST" name="configAfterClass" finished-at="2026-07-20T18:17:32 IST" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterClass -->
+      </class> <!-- com.comcast.crm.contacttest.CreateContactWithOrganizationTest -->
+      <class name="com.comcast.crm.contacttest.CreateContactWithSupportDateTest">
+        <test-method is-config="true" signature="configBeforeClass(java.lang.String)[pri:0, instance:com.comcast.crm.contacttest.CreateContactWithSupportDateTest@1aafa419]" started-at="2026-07-20T18:16:56 IST" name="configBeforeClass" finished-at="2026-07-20T18:16:58 IST" duration-ms="1936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:com.comcast.crm.contacttest.CreateContactWithSupportDateTest@1aafa419]" started-at="2026-07-20T18:16:58 IST" name="configBeforeMethod" finished-at="2026-07-20T18:16:59 IST" duration-ms="1106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="ContactCreationWithSupportDateTest()[pri:0, instance:com.comcast.crm.contacttest.CreateContactWithSupportDateTest@1aafa419]" started-at="2026-07-20T18:16:59 IST" name="ContactCreationWithSupportDateTest" finished-at="2026-07-20T18:17:07 IST" duration-ms="8477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactCreationWithSupportDateTest -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:com.comcast.crm.contacttest.CreateContactWithSupportDateTest@1aafa419]" started-at="2026-07-20T18:17:07 IST" name="configAfterMethod" finished-at="2026-07-20T18:17:08 IST" duration-ms="1001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configAfterClass()[pri:0, instance:com.comcast.crm.contacttest.CreateContactWithSupportDateTest@1aafa419]" started-at="2026-07-20T18:17:08 IST" name="configAfterClass" finished-at="2026-07-20T18:17:09 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterClass -->
+      </class> <!-- com.comcast.crm.contacttest.CreateContactWithSupportDateTest -->
+    </test> <!-- Test-2 -->
   </suite> <!-- Suite -->
 </testng-results>
